@@ -33,6 +33,13 @@ namespace MovieLib.Tests
                     DirectorName = "James Cameron",
                     ReleaseYear = "1997"
                 }
+                
+                new Movie ()
+                {
+                    MovieName ="Batcha",
+                    DirectorName ="Shankar",
+                    ReleaseYear ="2015"
+                }
             };
             return mockMovieRepository;
         }
